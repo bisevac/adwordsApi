@@ -1,0 +1,35 @@
+{
+  "name": "adwords",
+  "version": "1.0.0",
+  "description": "reader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist/* && ./node_modules/.bin/babel src/ -d dist/ --source-maps inline",
+    "start": "env 'NODE_ENV=local' node --require babel-register src/app.js"
+  },
+  "author": "Murat Deniz",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint-config-google": "^0.9.1",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.5",
+    "bluebird": "^3.5.1",
+    "consola": "^1.4.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "fs": "0.0.1-security",
+    "js-yaml": "^3.12.0",
+    "log4js": "^2.10.0",
+    "mysql": "^2.15.0",
+    "node-adwords": "^201806.0.1",
+    "path": "^0.12.7",
+    "util": "^0.11.0",
+    "xml2js": "^0.4.19"
+  }
+}

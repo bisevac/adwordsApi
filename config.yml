@@ -1,0 +1,10 @@
+adwords:
+  clientid: 'WRITE CLIENT ID'
+  secretid: ''WRITE SECRET ID'
+  developertoken: 'WRITE DEVELOPERTOKEN'
+  refleshtoken: 'WRITE REFLESH TOKEN'
+
+mysql:
+  local: '?'
+  dev: '?'
+  prod: '?'

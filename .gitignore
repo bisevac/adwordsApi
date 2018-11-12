@@ -1,0 +1,10 @@
+node_modules
+*.log
+.idea
+.DS_Store
+!src/.gitkeep
+.vscode
+.temp
+dist
+public
+package-lock.json
